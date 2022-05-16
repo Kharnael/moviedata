@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#manu {
+    text-align: center;
+    background-color: black;
+    color: #D9726A;
+}
+
+#movies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #371E2B;
+    text-align: center;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    border: 10px;
+    border-style: double;
+    border-color: #D9726A;
+    max-width: 500px;
+    align-items: center;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: #D9726A;
+    font-size: medium;
+    align-items: center;
+    max-width: 300px;
+}
+
+.average {
+    color: #D9726A;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+}
+
+.overview {
+    max-width: 300px;
+    font-size: small;
+    color: #D9726A;
+    margin: 15px;
+}
